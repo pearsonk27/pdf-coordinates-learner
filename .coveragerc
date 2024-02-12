@@ -1,8 +1,8 @@
 [run]
-source = project_name
+source = pdf_coordinates_learner
 
 [report]
 omit =
     */python?.?/*
     */site-packages/nose/*
-    project_name/__main__.py
+    pdf_coordinates_learner/__main__.py

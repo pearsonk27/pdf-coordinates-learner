@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+pdf_coordinates_learner API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="pdf_coordinates_learner",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://pdf_coordinates_learner.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "pearsonk27",
+        "url": "http://pdf_coordinates_learner.com/contact/",
+        "email": "pearsonk27@pdf_coordinates_learner.com",
     },
     license_info={
         "name": "The Unlicense",
